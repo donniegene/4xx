@@ -32,3 +32,20 @@ inside out project version 403.0
 	- added the buildMain function which returns the primary content area and will evolve to return content dynamically
 	- replaced document write with call to applicationUserInterface function in the validateLogin function
 	- added the linkClicked function which is called by click events on anchor elements and returns dynamically driven results
+	
+inside out project version 404.0
+	- index.html
+		- code changes https://www.diffchecker.com/oybNnzTY
+		- removed comments and cleaned code
+		- added script taf and quotes.js file
+	- style.css
+		- code changes https://www.diffchecker.com/114fW8QY
+		- modified the sidebar and sidebar ul classes
+		- add the auth and infoDiv classes
+	- app.js
+		- code changes https://www.diffchecker.com/oKMHtBlu
+		- added the quotArr sort to the initalizeApplication function
+		- modified buildMenu function to dynamically build the menu from the array
+		- modified linkClicked function to dynamically populate main content with array content
+	- added the assets/data/quotes.js file
+		- code changes https://www.diffchecker.com/YlRCv0UM
