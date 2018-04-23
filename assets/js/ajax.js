@@ -47,6 +47,7 @@ ajax.get = function (url, data, callback, async) {
 	}
 	ajax.send(url + (query.length ? '?' + query.join('&') : ''), callback, 'GET', null, async)
 };
+
 ajax.post = function (url, data, callback, async) {
 	var query = [];
 	for (var key in data) {
